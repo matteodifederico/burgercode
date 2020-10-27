@@ -1,0 +1,23 @@
+#
+# remove file extension
+#
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#
+# manage http error
+#
+ErrorDocument 400 http://localhost/dynamic-template-3.0/error-400
+ErrorDocument 401 http://localhost/dynamic-template-3.0/error-400
+ErrorDocument 403 http://localhost/dynamic-template-3.0/error-400
+ErrorDocument 404 http://localhost/dynamic-template-3.0/error-400
+ErrorDocument 405 http://localhost/dynamic-template-3.0/error-400
+ErrorDocument 406 http://localhost/dynamic-template-3.0/error-400
+
+ErrorDocument 500 http://localhost/dynamic-template-3.0/error-500
+ErrorDocument 501 http://localhost/dynamic-template-3.0/error-500
+ErrorDocument 502 http://localhost/dynamic-template-3.0/error-500
+ErrorDocument 503 http://localhost/dynamic-template-3.0/error-500
+ErrorDocument 504 http://localhost/dynamic-template-3.0/error-500
+ErrorDocument 505 http://localhost/dynamic-template-3.0/error-500

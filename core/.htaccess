@@ -1,0 +1,10 @@
+<Files ~ "config-dev.json$">
+Order allow,deny
+Require local
+allow from all
+</Files>
+<Files ~ "config-prod.json$">
+Order allow,deny
+Require local
+allow from all
+</Files>

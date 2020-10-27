@@ -1,0 +1,46 @@
+{
+  "application": {
+    "name": "burger code dynamic template",
+    "author": "Matteo Di Federico",
+    "owner": "John Doe"
+  },
+  "connector": {
+    "baseUrl": "https://exampleDomain/connector/",
+    "apiKey": "exampletoken1234"
+  },
+  "database": {
+    "host": "localhost",
+    "dbName": "dbExampleName",
+    "userName": "dbExampleUser",
+    "userPassword": "examplepassword1234"
+  },
+  "path": {
+    "main": "/",
+    "css": "public/css/",
+    "js": "public/js/",
+    "images": "public/images/"
+  },
+  "url": {
+    "main": "https://exampleDomain/",
+    "images": "https://exampleDomain/ecoartigiano/public/images/",
+    "css": "https://exampleDomain/ecoartigiano/public/css/",
+    "js": "https://exampleDomain/ecoartigiano/public/js/"
+  },
+  "styles": {
+    "colors": {
+      "primary": "#000",
+      "secondary": "#000",
+      "light": "#000",
+      "dark": "#000",
+      "middle": "#000",
+      "contrast": "#000",
+      "alert": "#000",
+      "info": "#000",
+      "warning": "#000",
+      "danger": "#000"
+    },
+    "shapes": {
+      "borderRadius": "5px"
+    }
+  }
+}
